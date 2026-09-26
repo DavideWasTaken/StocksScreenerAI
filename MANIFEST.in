@@ -1,0 +1,4 @@
+include .env.example
+include requirements.txt
+include requirements-dev.txt
+recursive-include docs *.md
