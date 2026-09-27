@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">StocksScreenerAI synthetic output example</title>
+<desc id="desc">Fictional inputs with actual computed scores, missing FCF growth, and a manually simulated narrative. No real company or AI research.</desc>
+<rect width="1200" height="720" rx="20" fill="#f1f5f9"/>
+<rect x="20" y="20" width="1160" height="680" rx="16" fill="white"/>
+<path d="M36 20H1164Q1180 20 1180 36V154H20V36Q20 20 36 20" fill="#132238"/>
+<text x="50" y="57" font-family="Arial, sans-serif" font-size="14" fill="#5eead4" font-weight="700">STOCKSSCREENERAI  /  OUTPUT EXAMPLE</text>
+<text x="50" y="101" font-family="Arial, sans-serif" font-size="34" fill="white" font-weight="700">ExampleCo</text>
+<text x="50" y="132" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" font-weight="400">DEMO-ONLY · fictional company and financial inputs</text>
+<text x="882" y="64" font-family="Arial, sans-serif" font-size="13" fill="#cbd5e1" font-weight="700">ILLUSTRATIVE SCORE</text>
+<text x="882" y="108" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="700">65.7 / 100</text>
+<text x="50" y="188" font-family="Arial, sans-serif" font-size="14" fill="#9a3412" font-weight="700">SYNTHETIC DATA + MANUALLY SIMULATED AI · NO LIVE RESEARCH</text>
+<rect x="50" y="210" width="352" height="102" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="68" y="240" font-family="Arial, sans-serif" font-size="13" fill="#64748b" font-weight="700">DECLINE FROM 2Y HIGH</text>
+<text x="68" y="281" font-family="Arial, sans-serif" font-size="27" fill="#172033" font-weight="700">-38%</text>
+<rect x="424" y="210" width="352" height="102" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="442" y="240" font-family="Arial, sans-serif" font-size="13" fill="#64748b" font-weight="700">REVENUE GROWTH</text>
+<text x="442" y="281" font-family="Arial, sans-serif" font-size="27" fill="#172033" font-weight="700">+4%</text>
+<rect x="798" y="210" width="352" height="102" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="816" y="240" font-family="Arial, sans-serif" font-size="13" fill="#64748b" font-weight="700">FCF GROWTH</text>
+<text x="816" y="281" font-family="Arial, sans-serif" font-size="27" fill="#172033" font-weight="700">Not supplied</text>
+<text x="50" y="358" font-family="Arial, sans-serif" font-size="14" fill="#0f766e" font-weight="700">QUANT EVIDENCE</text>
+<text x="50" y="397" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="400">Price dislocation</text>
+<rect x="258" y="384" width="210" height="12" rx="6" fill="#e2e8f0"/>
+<rect x="258" y="384" width="118.23" height="12" rx="6" fill="#0f766e"/>
+<text x="485" y="397" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="700">56.3</text>
+<text x="50" y="444" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="400">Fundamental resilience</text>
+<rect x="258" y="431" width="210" height="12" rx="6" fill="#e2e8f0"/>
+<rect x="258" y="431" width="145.56" height="12" rx="6" fill="#0f766e"/>
+<text x="485" y="444" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="700">69.3</text>
+<text x="50" y="491" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="400">Valuation compression</text>
+<rect x="258" y="478" width="210" height="12" rx="6" fill="#e2e8f0"/>
+<rect x="258" y="478" width="144.08" height="12" rx="6" fill="#0f766e"/>
+<text x="485" y="491" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="700">68.6</text>
+<text x="50" y="538" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="400">Balance-sheet quality</text>
+<rect x="258" y="525" width="210" height="12" rx="6" fill="#e2e8f0"/>
+<rect x="258" y="525" width="151.20" height="12" rx="6" fill="#0f766e"/>
+<text x="485" y="538" font-family="Arial, sans-serif" font-size="16" fill="#172033" font-weight="700">72.0</text>
+<text x="50" y="591" font-family="Arial, sans-serif" font-size="16" fill="#64748b" font-weight="400">Weighted data coverage: 94.4%</text>
+<text x="615" y="358" font-family="Arial, sans-serif" font-size="14" fill="#0f766e" font-weight="700">SIMULATED NARRATIVE</text>
+<text x="615" y="396" font-family="Arial, sans-serif" font-size="17" fill="#172033" font-weight="700">Question to investigate</text>
+<text x="615" y="423" font-family="Arial, sans-serif" font-size="17" fill="#172033" font-weight="400">Temporary demand slowdown or lasting damage?</text>
+<text x="615" y="468" font-family="Arial, sans-serif" font-size="17" fill="#172033" font-weight="700">What would invalidate the thesis?</text>
+<text x="615" y="497" font-family="Arial, sans-serif" font-size="17" fill="#172033" font-weight="400">Two periods of revenue contraction, or</text>
+<text x="615" y="524" font-family="Arial, sans-serif" font-size="17" fill="#172033" font-weight="400">a free-cash-flow margin below 10%.</text>
+<text x="615" y="574" font-family="Arial, sans-serif" font-size="16" fill="#64748b" font-weight="400">No evidence links: this is an invented example.</text>
+<path d="M50 622H1150" stroke="#e2e8f0"/>
+<text x="50" y="652" font-family="Arial, sans-serif" font-size="17" fill="#172033" font-weight="700">Real scoring and report functions · fictional inputs · no API key needed</text>
+<text x="50" y="679" font-family="Arial, sans-serif" font-size="15" fill="#64748b" font-weight="400">A preview of the report structure, not an investment recommendation or a performance claim.</text>
+</svg>

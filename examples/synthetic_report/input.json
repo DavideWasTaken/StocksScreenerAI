@@ -1,0 +1,44 @@
+{
+  "ticker": "DEMO-ONLY",
+  "company_name": "ExampleCo — fictional company",
+  "metrics": {
+    "drawdown_2y": 0.38,
+    "relative_return_sector_1y": -0.21,
+    "relative_return_index_1y": -0.18,
+    "revenue_growth": 0.04,
+    "fcf_growth": null,
+    "fcf_per_share_growth": 0.025,
+    "fcf_margin": 0.15,
+    "gross_margin_stability": 0.02,
+    "share_dilution": -0.01,
+    "roic": 0.12,
+    "ev_to_fcf": 12.0,
+    "fcf_yield": 0.07,
+    "pe_ratio": 18.0,
+    "valuation_compression": 0.32,
+    "net_debt_to_fcf": 1.4
+  },
+  "simulated_ai": {
+    "why_it_fell": "In this fictional scenario, a guidance cut triggered concern about slowing demand.",
+    "dominant_bearish_narrative": "The slowdown represents a lasting loss of pricing power.",
+    "expected_damage_if_bear_thesis_is_correct": [
+      "Revenue growth turns negative",
+      "Free-cash-flow margins contract"
+    ],
+    "observed_fundamental_damage": [
+      "The synthetic inputs show 4% revenue growth and a 15% FCF margin.",
+      "FCF growth is missing, so cash-flow improvement cannot be established."
+    ],
+    "catalysts": ["Guidance stabilizes", "Margins hold through the next reporting period"],
+    "structural_risks": ["Permanent market-share loss", "A weaker competitive position"],
+    "value_trap_probability": 35,
+    "narrative_gap_score": 72,
+    "concise_thesis": "The illustrative selloff appears larger than the supplied operating deterioration, but incomplete cash-flow evidence leaves the thesis unresolved.",
+    "invalidation_conditions": [
+      "Revenue contracts for two consecutive reporting periods",
+      "FCF margin falls below 10%"
+    ],
+    "ai_inferences": ["The slowdown might be cyclical rather than structural"],
+    "evidence": []
+  }
+}

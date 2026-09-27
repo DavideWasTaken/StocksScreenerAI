@@ -1,8 +1,14 @@
-# Narrative Dislocation
+# StocksScreenerAI — Narrative Dislocation
 
 **A research screener for stocks whose prices have fallen further than their reported fundamentals might suggest.**
 
 This project turns a broad stock universe into a short, inspectable research queue. It combines a deterministic quantitative screen with optional AI research into the reasons behind a selloff. It is a tool for asking better questions about a company, **not a buy list or a proven trading strategy**.
+
+![Synthetic report preview: fictional company metrics, computed quant scores, missing FCF growth and a manually simulated narrative](examples/synthetic_report/preview.svg)
+
+*Illustrated output example, not an app screenshot. All company data and narrative inputs are fictional; scoring uses the project's real functions. No AI request was made.*
+
+[Read the example report](examples/synthetic_report/top_10_report.md) · [CSV](examples/synthetic_report/top_20.csv) · [Detailed JSON](examples/synthetic_report/detailed_results.json) · [How to reproduce it](examples/synthetic_report/README.md)
 
 ```text
 Current universe → Drawdown filter → Financial data → Quant ranking
@@ -21,6 +27,15 @@ Current universe → Drawdown filter → Financial data → Quant ranking
 ## Quick start
 
 Requires **Python 3.11+**.
+
+To explore the output **offline, without an API key**, install the package and generate the fictional example:
+
+```bash
+python -m pip install -e .
+python examples/generate_synthetic_report.py
+```
+
+To screen real tickers with network access:
 
 ```bash
 python -m pip install -e .

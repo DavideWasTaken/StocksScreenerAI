@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-27T13:49:54+00:00",
+  "count": 1,
+  "run_metadata": {
+    "run_id": "synthetic-offline-example",
+    "synthetic_demo": true,
+    "network_requests": 0,
+    "ai_requests": 0,
+    "description": "Scoring and reporting only; no provider fetch, screen or AI research"
+  },
+  "candidates": [
+    {
+      "ticker": "DEMO-ONLY",
+      "company_name": "ExampleCo — fictional company",
+      "synthetic_demo": true,
+      "price_dislocation_score": 56.3,
+      "price_dislocation_coverage": 100.0,
+      "fundamental_resilience_score": 69.31547619047619,
+      "fundamental_resilience_coverage": 84.0,
+      "valuation_compression_score": 68.60952380952381,
+      "valuation_compression_coverage": 100.0,
+      "balance_sheet_quality_score": 72.0,
+      "balance_sheet_quality_coverage": 100.0,
+      "quant_score": 65.50279761904761,
+      "quant_coverage": 94.39999999999999,
+      "quant_confidence": 94.39999999999999,
+      "scoring_model_version": "quant-v1",
+      "score_explanations": {
+        "price_dislocation": {
+          "score": 56.3,
+          "coverage": 1.0,
+          "metrics": [
+            {
+              "metric": "drawdown_2y",
+              "source_metric": "drawdown_2y",
+              "raw_value": 0.38,
+              "metric_score": 51.0,
+              "configured_weight": 0.55,
+              "available": true,
+              "interpretation": "Larger decline from the two-year high means greater price dislocation."
+            },
+            {
+              "metric": "relative_return_sector_1y",
+              "source_metric": "relative_return_sector_1y",
+              "raw_value": -0.21,
+              "metric_score": 65.0,
+              "configured_weight": 0.25,
+              "available": true,
+              "interpretation": "Worse one-year return than the sector means greater dislocation."
+            },
+            {
+              "metric": "relative_return_index_1y",
+              "source_metric": "relative_return_index_1y",
+              "raw_value": -0.18,
+              "metric_score": 60.0,
+              "configured_weight": 0.2,
+              "available": true,
+              "interpretation": "Worse one-year return than the broad index means greater dislocation."
+            }
+          ]
+        },
+        "fundamental_resilience": {
+          "score": 69.31547619047619,
+          "coverage": 0.84,
+          "metrics": [
+            {
+              "metric": "revenue_growth",
+              "source_metric": "revenue_growth",
+              "raw_value": 0.04,
+              "metric_score": 60.0,
+              "configured_weight": 0.14,
+              "available": true,
+              "interpretation": "Positive latest-period revenue growth indicates demand resilience."
+            },
+            {
+              "metric": "fcf_growth",
+              "source_metric": null,
+              "raw_value": null,
+              "metric_score": null,
+              "configured_weight": 0.16,
+              "available": false,
+              "interpretation": "Positive latest-period free-cash-flow growth indicates resilience."
+            },
+            {
+              "metric": "fcf_per_share_growth",
+              "source_metric": "fcf_per_share_growth",
+              "raw_value": 0.025,
+              "metric_score": 53.125,
+              "configured_weight": 0.2,
+              "available": true,
+              "interpretation": "Per-share FCF growth incorporates both cash generation and dilution."
+            },
+            {
+              "metric": "fcf_margin",
+              "source_metric": "fcf_margin",
+              "raw_value": 0.15,
+              "metric_score": 75.0,
+              "configured_weight": 0.18,
+              "available": true,
+              "interpretation": "Higher free-cash-flow margin provides an operating cushion."
+            },
+            {
+              "metric": "gross_margin_stability",
+              "source_metric": "gross_margin_stability",
+              "raw_value": 0.02,
+              "metric_score": 77.5,
+              "configured_weight": 0.12,
+              "available": true,
+              "interpretation": "Lower standard deviation of recent gross margins is more resilient."
+            },
+            {
+              "metric": "share_dilution",
+              "source_metric": "share_dilution",
+              "raw_value": -0.01,
+              "metric_score": 92.0,
+              "configured_weight": 0.1,
+              "available": true,
+              "interpretation": "Lower share-count growth preserves each owner's claim on FCF."
+            },
+            {
+              "metric": "roic",
+              "source_metric": "roic",
+              "raw_value": 0.12,
+              "metric_score": 72.0,
+              "configured_weight": 0.1,
+              "available": true,
+              "interpretation": "Reported ROIC is preferred; otherwise the labelled NOPAT/invested-capital proxy is used."
+            }
+          ]
+        },
+        "valuation_compression": {
+          "score": 68.60952380952381,
+          "coverage": 1.0,
+          "metrics": [
+            {
+              "metric": "ev_to_fcf",
+              "source_metric": "ev_to_fcf",
+              "raw_value": 12.0,
+              "metric_score": 75.71428571428571,
+              "configured_weight": 0.2,
+              "available": true,
+              "interpretation": "Lower positive EV/FCF is cheaper."
+            },
+            {
+              "metric": "fcf_yield",
+              "source_metric": "fcf_yield",
+              "raw_value": 0.07,
+              "metric_score": 66.66666666666667,
+              "configured_weight": 0.25,
+              "available": true,
+              "interpretation": "Higher positive FCF yield is cheaper."
+            },
+            {
+              "metric": "pe_ratio",
+              "source_metric": "pe_ratio",
+              "raw_value": 18.0,
+              "metric_score": 62.0,
+              "configured_weight": 0.1,
+              "available": true,
+              "interpretation": "Lower positive earnings multiple is cheaper."
+            },
+            {
+              "metric": "valuation_compression",
+              "source_metric": "valuation_compression",
+              "raw_value": 0.32,
+              "metric_score": 68.0,
+              "configured_weight": 0.45,
+              "available": true,
+              "interpretation": "Current positive multiples below their own historical medians score higher."
+            }
+          ]
+        },
+        "balance_sheet_quality": {
+          "score": 72.0,
+          "coverage": 1.0,
+          "metrics": [
+            {
+              "metric": "net_debt_to_fcf",
+              "source_metric": "net_debt_to_fcf",
+              "raw_value": 1.4,
+              "metric_score": 72.0,
+              "configured_weight": 1.0,
+              "available": true,
+              "interpretation": "Net cash or fewer years of positive FCF needed to repay net debt is stronger."
+            }
+          ]
+        }
+      },
+      "dislocation_score": 65.7481,
+      "quant_evidence_score": 63.6687,
+      "ai_score": 70.6,
+      "score_status": "quant_plus_ai",
+      "final_score_version": "dislocation-v1",
+      "narrative_analysis": {
+        "measured_facts": {
+          "drawdown_2y": 0.38,
+          "relative_return_sector_1y": -0.21,
+          "relative_return_index_1y": -0.18,
+          "revenue_growth": 0.04,
+          "fcf_growth": null,
+          "fcf_per_share_growth": 0.025,
+          "fcf_margin": 0.15,
+          "gross_margin_stability": 0.02,
+          "share_dilution": -0.01,
+          "roic": 0.12,
+          "ev_to_fcf": 12.0,
+          "fcf_yield": 0.07,
+          "pe_ratio": 18.0,
+          "valuation_compression": 0.32,
+          "net_debt_to_fcf": 1.4,
+          "drawdown_from_2y_high": -0.38
+        },
+        "ai_inference": {
+          "why_it_fell": "In this fictional scenario, a guidance cut triggered concern about slowing demand.",
+          "dominant_bearish_narrative": "The slowdown represents a lasting loss of pricing power.",
+          "expected_damage_if_bear_thesis_is_correct": [
+            "Revenue growth turns negative",
+            "Free-cash-flow margins contract"
+          ],
+          "observed_fundamental_damage": [
+            "The synthetic inputs show 4% revenue growth and a 15% FCF margin.",
+            "FCF growth is missing, so cash-flow improvement cannot be established."
+          ],
+          "catalysts": [
+            "Guidance stabilizes",
+            "Margins hold through the next reporting period"
+          ],
+          "structural_risks": [
+            "Permanent market-share loss",
+            "A weaker competitive position"
+          ],
+          "value_trap_probability": 35,
+          "narrative_gap_score": 72,
+          "concise_thesis": "The illustrative selloff appears larger than the supplied operating deterioration, but incomplete cash-flow evidence leaves the thesis unresolved.",
+          "invalidation_conditions": [
+            "Revenue contracts for two consecutive reporting periods",
+            "FCF margin falls below 10%"
+          ],
+          "ai_inferences": [
+            "The slowdown might be cyclical rather than structural"
+          ],
+          "evidence": []
+        },
+        "evidence_sources": [],
+        "ai_metadata": {
+          "status": "synthetic_fixture",
+          "api_called": false,
+          "note": "Manually authored example, not model output"
+        }
+      },
+      "rank": 1
+    }
+  ]
+}
