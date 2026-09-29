@@ -1,5 +1,9 @@
 # StocksScreenerAI — Narrative Dislocation
 
+[![checks](https://github.com/DavideWasTaken/StocksScreenerAI/actions/workflows/checks.yml/badge.svg)](https://github.com/DavideWasTaken/StocksScreenerAI/actions/workflows/checks.yml)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **A research screener for stocks whose prices have fallen further than their reported fundamentals might suggest.**
 
 This project turns a broad stock universe into a short, inspectable research queue. It combines a deterministic quantitative screen with optional AI research into the reasons behind a selloff. It is a tool for asking better questions about a company, **not a buy list or a proven trading strategy**.
